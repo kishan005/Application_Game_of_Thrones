@@ -1,14 +1,16 @@
 
 <div style="text-align:center">
   <div class="container-fluid container-fluid-1">
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-inverse">
           <div class="container-fluid">
              <div class="navbar-header">
               </div>
     
-          <div class="collapse navbar-collapse">
+          <div class="collapse navbar-collapse ">
           <ul class="nav navbar-nav">
             <li><a [routerLink]="['/home']">Home</a></li>
+            <li><a [routerLink]="['/about']">About</a></li>
+
             </ul>
         
         </div>
@@ -21,6 +23,9 @@
         </div>
       </div>
   </div>
-  
+  </div>
+  <div class="rere">
+    <img src= "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Game_of_Thrones_Season_4.jpg/220px-Game_of_Thrones_Season_4.jpg" width="455" height="266">
+    </div>
   <br/>
  <router-outlet></router-outlet>
